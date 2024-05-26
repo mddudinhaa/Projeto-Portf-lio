@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(194, 225, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+  }
+
+  h1{
+    color: #000000;
+  }
+  h2{
+    color: rgb(61, 98, 165);
+  }
+  h3{
+    color: rgb(61, 98, 165) ;
+  
+  }
+
+  h4{
+    color: rgb(61, 98, 165);
+  }
+  p{
+    text-align: justify;
+  }
+
+.link1:hover { 
+    color: rgb(29, 12, 92);
+  }
+  .link2:hover {
+    color: rgb(16, 9, 77);
+  }
+  .link3:hover {
+    color: rgb(8, 22, 88);
+  }
+  *{
+    margin: 0;
+  }
+  
+
+  
+  div a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    display:inline-block;
+  }
+  
+  
+  
+  .lista1 {
+    display: inline-block;
+  }
+  
+  .lista1:hover {
+    background: #333;
+  }
+  
+  .lista1:hover .lista2 {
+    display: block;
+  }
+  
+  .lista2 {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  
+  .lista-link {
+    background: #555;
+    display: block;
+  }
+  .centro
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.tabela {
+          margin-top: 40px;
+          background-color: rgba(255, 255, 255, 0);
+          border-radius: 5px;
+          overflow: hidden;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+          background-position: center;
+          text-align: center;
+          margin: auto;
+      }
+      .linha {
+        background-position: center;
+        display: table-row;
+    }
+    
+    .celula {
+        background-position: center ;
+        display: table-cell;
+        border: 1px solid black;
+        padding: 5px;
+        width: 50%;
+    }
+    .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      animation: changeColor 5s infinite alternate; 
+  }
+  
+  .menu a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+  }
+  
+  @keyframes changeColor {
+      0% { background-color: #5eaeff41; } 
+      50% { background-color: #2b003f; } 
+      100% { background-color: #a905ca; }
+  }
+
+/* Estilo inicial da imagem */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: auto;
+  cursor: pointer; /* Muda o cursor para indicar que a imagem é clicável */
+}
+.component {
+  width: 800px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.component-hover {
+  background-color: rgb(9, 115, 141);
+}
+.btn {
+  background-color: rgb(21, 79, 99); /* Cor padrão */
+  color: white; /* Cor do texto */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.btn:hover {
+  background-color: rgb(12, 209, 150); /* Cor ao passar o mouse */
+}

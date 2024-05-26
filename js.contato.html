@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <center><title>Formulário de Contato</title>
+</head>
+<body>
+  <a name="topo"></a>
+    <link rel="preconnect" href="https://fonts.gstatic.com" origem cruzada>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="folha de estilo">
+<header>
+<nav>
+<div class="menu">
+  <a href="Portifólio Maria Eduarda PWR.html">Home</a>
+   <a href="Curiosidades.html">Curiosidades</a>
+</div>
+</div>
+</nav>
+</header>
+  <div class="nav-containre">
+    <br><br><br><br><br>
+    <div class="nav-logo">Meu Portfólio!</div>
+  </div>
+  <h1>Entre em Contato</h1>
+  <form action="processar_formulario.php" method="POST">
+    <label for="nome">Nome completo:</label><br>
+    <input type="text" id="nome" name="nome" required><br>
+    
+    <label for="data_nascimento">Data de nascimento:</label><br>
+    <input type="date" id="data_nascimento" name="data_nascimento" required><br>
+    
+    <label for="telefone">Telefone:</label><br>
+    <input type="tel" id="telefone" name="telefone" required><br>
+    
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="sexo">Sexo:</label><br>
+    <select id="sexo" name="sexo">
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+      <option value="outro">Outro</option>
+    </select><br>
+    
+    <label for="escolaridade">Escolaridade:</label><br>
+    <select id="escolaridade" name="escolaridade">
+      <option value="ensino_medio">Ensino Médio</option>
+      <option value="graduacao">Graduação</option>
+      <option value="pos_graduacao">Pós-Graduação</option>
+      <option value="outro">Outro</option>
+    </select><br>
+    
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+    
+    <input type="checkbox" id="receber_info" name="receber_info" value="sim">
+    <label for="receber_info">Desejo receber informações por e-mail.</label><br>
+    
+    <input type="submit" value="Enviar">
+  </form>
+</center>
+<p><center><a href="Portifólio Maria Eduarda PWR.html">Voltar</a></center></p>
+
+</html>
